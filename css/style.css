@@ -1,0 +1,370 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.vista__desktop{
+    background-color: #00195E;
+    width: 500px;
+}
+.vista__desktop2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.vista__desktop2 h2{
+    display: none;
+    text-align: center;
+    color: black;
+}
+// Home
+
+.seconddivpost{
+    height: 40px;
+}
+.seconddivpost h2{
+    font-size: 2rem;
+    color: #f82d48;
+    padding: 0px 0 10px 30px;
+    text-align: left;
+}
+.seconddivpost h3{
+    font-size: 2rem;
+    color: #f82d48;
+    text-align: center;
+    padding: 0px 0 10px 0;
+}
+
+.post__h3{
+    padding: 0 0 10px 0;
+}
+.post__h3 h3{
+    font-size: 1.5rem;
+    color: #fee2e9;
+    margin: 0px 0 10px 10px;
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+.gif__post{
+    width: 100%;
+    height: 167px;
+}
+
+.container{
+}
+.searcher{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.searcher img{
+    width: 20px;
+    height: 20px;
+}
+.searcher input{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.food__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.food__container img{
+    width: 182px;
+    height: 182px;
+}
+.img__foods{
+    position: relative;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.img__foods img{
+    border-radius: 10px;
+}
+.title__foods{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.img__foods h4{
+    display: flex;
+    justify-content: inherit;
+}
+
+// css productos
+
+.productos__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card__container{
+    width: 180px;
+    height: 400px;
+    padding: 0 0 0 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.card__container img{
+    height: 50%;
+    
+}
+.card{
+    width: 200px;
+    height: 400px;
+}
+
+.card-body p{
+    color: #fee2e9;
+}
+.card-body h5{
+    color: #fee2e9;
+}
+.card-body button{
+    background-color: #f82d48;
+    color: #fee2e9;
+}
+
+// css carrito
+
+.first__th{
+    width: 20%;
+}
+.first__th img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px -8px 2px 4px;
+}
+
+.price{
+    width: 5%;
+}
+.price h4{
+    margin: 0 0 15px 0;
+}
+.total__price h4{
+    color: red;
+}
+.food h3{
+    font-size: 1.3rem;
+    color: black;
+}
+
+.tipo h4{
+    font-size: 1rem;
+    margin: 0 0 0 0;
+    color: black;
+    border-top: 1px solid red;
+}
+
+.third__th{
+    width: 20%;
+}
+.third__th img{
+    width: 30px;
+    height: 30px;
+    margin: 0 0 15px 30px;
+}
+.third__th button{
+    margin: 5px 0 10px 0px;
+}
+
+.total__th h2{
+    margin: 0 0 15px 5px;
+}
+
+.ocultar{
+    visibility: hidden;
+}
+
+
+header{
+    background: linear-gradient(0deg, rgba(168,0,46,1) 0%, rgba(119,114,160,1) 68%, rgba(226,227,254,1) 100%);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #0054a8;
+    border-radius: 10px;
+}
+.container{
+    border-radius: 10px;
+}
+.container a{
+    color: #00195E;
+}
+body{
+    background-color: #00195E;
+}
+header, .alert{
+z-index: 100;
+}
+footer{
+    background-color: #01091e;
+}
+.description{
+height: 25px;
+overflow: hidden;
+transition: height .3s ease-in .3s;
+}
+.description:hover{
+height: 80px;
+}
+.carrito{
+min-height: 80vh;
+max-width: 1000px;
+margin: 0 auto;
+width: 100%;
+}
+.table__productos{
+display: flex;
+}
+.table__productos > img{
+width: 9rem;
+object-fit: contain;
+border-radius: 6px;
+margin-right: 20px;
+}
+.table__cantidad > input{
+width: 40px;
+border: none;
+outline: 0;
+font-size: 16px;
+font-weight: 700;
+margin-right: 30px;
+margin-bottom: 20px;
+background-color: #f82d48;
+border-radius: 5px;
+}
+.table__cantidad > button{
+    background-color: #f82d48;
+    border-radius: 5px;
+    }
+.hide, .remove{
+display: none;
+}
+.table{
+    background-color: #DEF3FE;
+}
+
+.list__carrito{
+    color: #f82d48;
+}
+
+.container__total{
+    display: flex;
+}
+.container__total div{
+    margin: 0 10px;
+}
+.container__total button{
+    color: white;
+    background-color: #348416;
+    border-color: #f41818;
+}
+.item__total{
+    display: flex;
+    justify-content: end;
+}
+.card{
+    background-color:#0054a8;
+}
+.card__container h5{
+    color: #fee2e9;
+}
+
+// css contactanos
+
+.contact__container{
+    display: flex;
+}
+.contact__div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+.contact__div input{
+    border-radius: 5px;
+    height: 35px;
+}
+
+.contact__div textarea{
+    border-radius: 5px;
+    height: 100px;
+}
+.enviarmensaje{
+    width: 50%;
+    justify-content: flex-end;
+    margin-left: 50%;
+    background-color: #0054a8;
+    color: #fee2e9;
+}
+
+// mediaqueries
+
+@media (min-width: 550px){
+    .vista__desktop{
+        width: 500px;
+        background-color: #00195E;
+        border-radius: 10px;
+    }
+    .vista__desktop2{
+        background-color: white;
+    }
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+    }
+    .vista__desktop2 h2{
+        display: none;
+        text-align: center;
+        color: black;
+    }
+}
+@media (min-width: 800px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}
+@media (min-width:1000px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}
+@media (min-width:1300px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}

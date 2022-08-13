@@ -1,0 +1,190 @@
+body{
+    background-color: #00195E;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.vista__desktop{
+    background-color: #00195E;
+    width: 500px;
+}
+.vista__desktop2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.vista__desktop2 h2{
+    display: none;
+    text-align: center;
+    color: black;
+}
+.espaciado__index{
+    height: 20px;
+}
+/* primera seccion  */
+
+.espaciado__index{
+    height: 20px;
+}
+
+.first__div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 80px;
+}
+.first__div p{
+font-weight: bold;
+font-size: 20px;
+color: #f82d48;
+}
+.first__div img{
+    width: 60px;
+    height: 60px;
+}
+
+/* segunda seccion */
+
+.second__div{
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 300px;
+}
+.second__div h2{
+    text-align: center;
+font-size: 35px;
+margin-bottom: -5px;
+color: #f82d48;
+}
+.second__div p{
+font-size: 17px;
+margin-bottom: 24px;
+color: #f82d48;
+}
+
+.first__input{
+border: 2px solid black;
+background-color: white;
+height: 46px;
+width: 80%;
+border-radius: 6px;
+padding: 0px 12px;
+color: black;
+}
+::placeholder {
+color: black;
+font-size: 18px;
+}
+
+/* tercera seccion */
+
+.third__div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:100%;
+height: 150px;
+}
+.third__div button{
+cursor: pointer;
+}
+.button__div{
+height: 46px;
+width: 80%;
+border-radius: 6px;
+font-size: 17px;
+font-weight: 600;
+margin: 12px 0 12px 0;
+}
+
+.third__div button:disabled {
+opacity: 0.4;
+pointer-events: none;
+}
+.third__div button:not(.minimal){
+background-color: black;
+color: white;
+}
+.fourth__div{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 30px;
+margin: 10px 0 0 0;
+background-color: #DEF3FE;
+border-radius: 5px;
+}
+.fourth__div p{
+color: black;
+}
+.fourth__div p b{
+font-size: 1.2rem;
+}
+
+// mediaqueries
+
+@media (min-width: 550px){
+    .vista__desktop{
+        width: 500px;
+        background-color: #00195E;
+        border-radius: 10px;
+    }
+    .vista__desktop2{
+        background-color: white;
+    }
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+    }
+    .vista__desktop2 h2{
+        display: none;
+        text-align: center;
+        color: black;
+    }
+}
+@media (min-width: 800px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}
+@media (min-width:1000px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}
+@media (min-width:1300px){
+    .vista__desktop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+    }
+    .vista__desktop2 h2{
+        display: flex;
+        color: black;
+    }
+}
