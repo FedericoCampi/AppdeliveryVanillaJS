@@ -194,6 +194,10 @@ header{
     color: white;
     background-color: #0054a8;
     border-radius: 10px;
+    
+}
+.nav-pills .nav-link{
+    font-size: 10px;
 }
 .container{
     border-radius: 10px;
@@ -311,6 +315,32 @@ display: none;
 
 // mediaqueries
 
+@media (max-width: 440px){
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: small;
+    }
+    .nav-pills .nav-link{
+        font-size: small;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    .container a{
+        font-size: small;
+    }
+    .nav-item a{
+        font-size: 15px;
+    }
+    #pills-home-tab{
+        font-size: 15px;
+    }
+}
+@media (min-width: 440px){
+    
+    .nav-pills .nav-link{
+        font-size: 15px;
+    }
+}
 @media (min-width: 550px){
     .vista__desktop{
         width: 500px;
