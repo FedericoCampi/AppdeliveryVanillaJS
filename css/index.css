@@ -2,23 +2,17 @@ body{
     background-color: #00195E;
     font-family: 'Cabin', sans-serif;
     display: flex;
-    flex-direction: row;
+}
+.lateralizq{
+    width: 2%;
+}
+.container__index{
+    width: 96%;
+}
+.lateralder{
+    width: 2%;
 }
 
-.vista__desktop{
-    background-color: #00195E;
-    width: 500px;
-}
-.vista__desktop2{
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-.vista__desktop2 h2{
-    display: none;
-    text-align: center;
-    color: black;
-}
 .espaciado__index{
     height: 20px;
 }
@@ -132,59 +126,46 @@ font-size: 1.2rem;
 // mediaqueries
 
 @media (min-width: 550px){
-    .vista__desktop{
-        width: 500px;
-        background-color: #00195E;
-        border-radius: 10px;
+    .lateralizq{
+        width: 15%;
     }
-    .vista__desktop2{
-        background-color: white;
+    .container__index{
+        width: 70%;
     }
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 10px;
-    }
-    .vista__desktop2 h2{
-        display: none;
-        text-align: center;
-        color: black;
+    .lateralder{
+        width: 15%;
     }
 }
 @media (min-width: 800px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
+    .lateralizq{
+        width: 15%;
     }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
+    .container__index{
+        width: 70%;
+    }
+    .lateralder{
+        width: 15%;
     }
 }
 @media (min-width:1000px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 600px;
+    .lateralizq{
+        width: 20%;
     }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
+    .container__index{
+        width: 60%;
+    }
+    .lateralder{
+        width: 20%;
     }
 }
 @media (min-width:1300px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 900px;
+    .lateralizq{
+        width: 25%;
     }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
+    .container__index{
+        width: 50%;
+    }
+    .lateralder{
+        width: 25%;
     }
 }

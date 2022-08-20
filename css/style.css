@@ -1,23 +1,14 @@
 body{
-    display: flex;
-    flex-direction: row;
-}
-.vista__desktop{
-    background-color: #00195E;
-    width: 500px;
-}
-.vista__desktop2{
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-.vista__desktop2 h2{
-    display: none;
-    text-align: center;
-    color: black;
 }
 // Home
 
+.carouser-item{
+    height: 400px;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}
 .seconddivpost{
     height: 40px;
 }
@@ -49,7 +40,7 @@ body{
     height: 167px;
 }
 
-.container{
+.container__searcher{
 }
 .searcher{
     display: flex;
@@ -58,6 +49,7 @@ body{
     height: 50px;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    width: 300px;
 }
 .searcher img{
     width: 20px;
@@ -68,9 +60,9 @@ body{
     background-color: rgba(0, 0, 0, 0.15);
 }
 .food__container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .food__container img{
     width: 182px;
@@ -80,41 +72,46 @@ body{
     position: relative;
     margin: 5px 0 5px 0;
     border-radius: 10px;
-    padding: 0 5px;
     display: flex;
     justify-content: flex-end;
 }
 .img__foods img{
     border-radius: 10px;
+    object-fit: cover;
 }
 .title__foods{
-    position: absolute;
-    bottom: 0;
     color: white;
     width: 100%;
     font-size: 1.5rem;
 }
 .img__foods h4{
     display: flex;
-    justify-content: inherit;
+    justify-content: center;
 }
 
 // css productos
 
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .productos__container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .card__container{
     width: 180px;
     height: 400px;
     padding: 0 0 0 5px;
+    margin: 10px;
     display: flex;
     justify-content: space-around;
 }
 .card__container img{
     height: 50%;
-    
+    object-fit: cover;
 }
 .card{
     width: 200px;
@@ -197,7 +194,7 @@ header{
     
 }
 .nav-pills .nav-link{
-    font-size: 10px;
+    font-size: 12px;
 }
 .container{
     border-radius: 10px;
@@ -215,12 +212,12 @@ footer{
     background-color: #01091e;
 }
 .description{
-height: 25px;
+height: 20px;
 overflow: hidden;
 transition: height .3s ease-in .3s;
 }
 .description:hover{
-height: 80px;
+height: 45px;
 }
 .carrito{
 min-height: 80vh;

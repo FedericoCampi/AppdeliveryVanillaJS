@@ -153,7 +153,11 @@ var productosFood = [
     {valor: 'tarta', nombre: 'Tarta de JyQ', product: 3},
     {valor: 'empanadas', nombre: 'Empanadas', product: 4},
     {valor: 'sandwich', nombre: 'Sandwich', product: 5},
+    {valor: 'milanesa', nombre: 'Milanesa', product: 6},
+    {valor: 'papas', nombre: 'Papas', product: 6},
+    {valor: 'tacos', nombre: 'Tacos', product: 6},
     {valor: 'cocaCola', nombre: 'Coca cola', product: 6},
+    {valor: 'cocagrande', nombre: 'Coca Grande', product: 6}
 ]
 
 var formulario = document.querySelector('#formulario');
@@ -170,12 +174,12 @@ var filtrar = ()=>{
         let valor = producto.valor.toLowerCase();
         if(valor.indexOf(texto) !== -1){
             resultado.innerHTML += `
-            <div class="img__foods" style="position: relative;">
-            <h4 class="title__foods" style="position: absolute;bottom: 0; color: white;font-size: 1.5rem; margin-left: 5px;">
-            ${producto.nombre}</h4>
-            <a aria-current="page" routerLink="../producto${producto.product}" href="../producto${producto.product}" >
-            <img src="../resources/${producto.valor}.jpg" alt="" width=100% height=200>
+            <div class="img__foods" style="display: flex; flex-direction: column; border: 1px solid black;">
+            <a aria-current="page">
+            <img src="../resources/foods/${producto.valor}.jpg" alt="" width=100% height=200>
             </a>
+            <h4 class="title__foods" style="text-align: center; color: white;font-size: 1.5rem; margin-left: 5px;">
+            ${producto.nombre}</h4>
             </div>
             `
         }
