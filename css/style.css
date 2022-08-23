@@ -1,5 +1,10 @@
-body{
+h2{
+    color: #fdeb37;
 }
+h3{
+    color: #bdac9c
+}
+
 // Home
 
 .carouser-item{
@@ -11,23 +16,21 @@ body{
 }
 .seconddivpost{
     height: 40px;
+    padding-left: 20px;
+    margin: 10px 0 10px 0;
 }
 .seconddivpost h2{
     font-size: 2rem;
-    color: #f82d48;
-    padding: 0px 0 10px 30px;
     text-align: left;
 }
+.seconddivpost{
+    margin: 5px 0 5px 0;
+}
 .seconddivpost h3{
-    font-size: 2rem;
-    color: #f82d48;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 0px 0 10px 0;
 }
 
-.post__h3{
-    padding: 0 0 10px 0;
-}
 .post__h3 h3{
     font-size: 1.5rem;
     color: #fee2e9;
@@ -57,7 +60,11 @@ body{
 }
 .searcher input{
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: #bdac9c;
+}
+.form-control::placeholder {
+    color: #1c1e26;
+    font-size: 16px;
 }
 .food__container{
     display: flex;
@@ -74,6 +81,7 @@ body{
     border-radius: 10px;
     display: flex;
     justify-content: flex-end;
+    background-color: #9d815b;
 }
 .img__foods img{
     border-radius: 10px;
@@ -87,6 +95,8 @@ body{
 .img__foods h4{
     display: flex;
     justify-content: center;
+    color: #1c1e26;
+    margin-top: 8px;
 }
 
 // css productos
@@ -108,6 +118,7 @@ body{
     margin: 10px;
     display: flex;
     justify-content: space-around;
+    
 }
 .card__container img{
     height: 50%;
@@ -116,17 +127,21 @@ body{
 .card{
     width: 200px;
     height: 400px;
+    background-color: #9d815b;
 }
 
 .card-body p{
-    color: #fee2e9;
+    color: #1c1e26;
 }
 .card-body h5{
-    color: #fee2e9;
+    color: #1c1e26;
+}
+.card-text h5{
+
 }
 .card-body button{
-    background-color: #f82d48;
-    color: #fee2e9;
+    background-color: #d1a701;
+    color: #1c1e26;
 }
 
 // css carrito
@@ -184,26 +199,50 @@ body{
 
 
 header{
-    background: linear-gradient(0deg, rgba(168,0,46,1) 0%, rgba(119,114,160,1) 68%, rgba(226,227,254,1) 100%);
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: white;
-    background-color: #0054a8;
-    border-radius: 10px;
     
 }
+.navbar-toggler-icon img{
+    width: 30px;
+
+}
+.navbar{
+    background-color: #aeaa46;
+}
+.items__nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #d1a701;
+    background-color: #1c1e26;
+    border-radius: 10px;
+}
+
 .nav-pills .nav-link{
     font-size: 12px;
+}
+.carrito__nav{
+}
+.navbar-brand {
+    padding-left: 10px;
+}
+.navbar-brand img{
+    width: 63px;
+}
+.nav-link img{
+    width: 35px;
+    height: 35px;
 }
 .container{
     border-radius: 10px;
 }
 .container a{
-    color: #00195E;
+    color: #1c1e26;
 }
 body{
-    background-color: #00195E;
+    background-color: #1c1e26;
+    font-family: 'Cabin', sans-serif;
 }
 header, .alert{
 z-index: 100;
@@ -280,13 +319,6 @@ display: none;
     display: flex;
     justify-content: end;
 }
-.card{
-    background-color:#0054a8;
-}
-.card__container h5{
-    color: #fee2e9;
-}
-
 // css contactanos
 
 .contact__container{
@@ -301,18 +333,25 @@ display: none;
 .contact__div input{
     border-radius: 5px;
     height: 35px;
+    background-color: #bdac9c;
 }
 
 .contact__div textarea{
     border-radius: 5px;
     height: 100px;
+    background-color: #bdac9c;
+}
+.contact__item::placeholder{
+    color: #1c1e26;
 }
 .enviarmensaje{
     width: 50%;
     justify-content: flex-end;
     margin-left: 50%;
-    background-color: #0054a8;
-    color: #fee2e9;
+    color: #1c1e26;
+}
+.enviarmensaje:hover{
+    background-color: #d1a701;
 }
 
 // mediaqueries
@@ -341,6 +380,7 @@ display: none;
     
     .nav-pills .nav-link{
         font-size: 15px;
+        border-radius: 10px;
     }
 }
 @media (min-width: 550px){

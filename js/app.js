@@ -178,7 +178,7 @@ var filtrar = ()=>{
             <a aria-current="page">
             <img src="../resources/foods/${producto.valor}.jpg" alt="" width=100% height=200>
             </a>
-            <h4 class="title__foods" style="text-align: center; color: white;font-size: 1.5rem; margin-left: 5px;">
+            <h4 class="title__foods">
             ${producto.nombre}</h4>
             </div>
             `

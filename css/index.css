@@ -113,9 +113,9 @@ border-radius: 6px;
 padding: 0px 12px;
 color: #1c1e26;
 }
-::placeholder {
-color: black;
-font-size: 18px;
+.first__input::placeholder {
+    color: #1c1e26;
+    font-size: 18px;
 }
 
 /* tercera seccion */
@@ -139,9 +139,11 @@ font-size: 17px;
 font-weight: 600;
 margin: 12px 0 12px 0;
 }
-.third__div button{
-    
+.button__div a{
+    text-decoration: none;
+    color: #1c1e26;
 }
+
 
 .third__div button:disabled {
 opacity: 0.4;
@@ -149,6 +151,10 @@ pointer-events: none;
 }
 .third__div button:not(.minimal){
     background-color: #9d815b;
+    color: #1c1e26;
+}
+.third__div button:not(.minimal):hover{
+    background-color: #d1a701;
     color: #1c1e26;
 }
 .fourth__div{
