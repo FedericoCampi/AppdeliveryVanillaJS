@@ -254,8 +254,13 @@ display: none;
 }
 .table{
     background-color: #DEF3FE;
+    width: 80%;
 }
-
+.product__carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .list__carrito{
     color: #f82d48;
 }

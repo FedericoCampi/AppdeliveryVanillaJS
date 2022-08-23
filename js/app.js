@@ -57,7 +57,6 @@ carrito.map(item => {
     tr.classList.add('ItemCarrito')
     const Content = `
 
-        <table class="table table-dark">
             <th>
                 <td class="first__th"><img src=${item.img} alt=""></td>
                 <td class="food" >
@@ -76,7 +75,6 @@ carrito.map(item => {
                 <input type="number" min="1" value=${item.cantidad} class="input__elemento">
                 <button class="delete btn">x</button></td>
             </th>
-        </table>
 
     `
     tr.innerHTML = Content;
@@ -99,6 +97,8 @@ Total = Total + precio*item.cantidad
 itemCartTotal.innerHTML = `Total $${Total}`
 addLocalStorage()
 }
+
+// searcher
 
 function removeItemCarrito(e){
 const buttonDelete = e.target
@@ -157,7 +157,7 @@ var productosFood = [
     {valor: 'papas', nombre: 'Papas', product: 6},
     {valor: 'tacos', nombre: 'Tacos', product: 6},
     {valor: 'cocaCola', nombre: 'Coca cola', product: 6},
-    {valor: 'cocagrande', nombre: 'Coca Grande', product: 6}
+    {valor: 'Cocagrande', nombre: 'Coca Grande', product: 6}
 ]
 
 var formulario = document.querySelector('#formulario');
@@ -171,7 +171,7 @@ var filtrar = ()=>{
     const texto = formulario.value.toLowerCase();
 
     for(let producto of productosFood){
-        let valor = producto.valor.toLowerCase();
+        let valor = producto.nombre.toLowerCase();
         if(valor.indexOf(texto) !== -1){
             resultado.innerHTML += `
             <div class="img__foods" style="display: flex; flex-direction: column; border: 1px solid black;">

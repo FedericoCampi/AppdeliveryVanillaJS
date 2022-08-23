@@ -1,14 +1,55 @@
 body{
-    background-color: #00195E;
+    background-color: #1c1e26;
     font-family: 'Cabin', sans-serif;
     display: flex;
+}
+
+.index__container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.portada__container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado img{
+    width: 50%;
+    height: auto;
+}
+.centrado h1{
+    font-size: 2rem;
+    color: #fdeb37;
+}
+
+.foto__portada img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.login__index{
+    width: 35%;
+    margin: 0 10px 0 10px;
 }
 .lateralizq{
     width: 2%;
 }
-.container__index{
-    width: 96%;
-}
+
 .lateralder{
     width: 2%;
 }
@@ -29,15 +70,16 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 height: 80px;
+margin-top: 10px;
 }
 .first__div p{
 font-weight: bold;
 font-size: 20px;
-color: #f82d48;
+color: #bdac9c;
 }
 .first__div img{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: auto;
 }
 
 /* segunda seccion */
@@ -54,22 +96,22 @@ height: 300px;
     text-align: center;
 font-size: 35px;
 margin-bottom: -5px;
-color: #f82d48;
+color: #d1a701;
 }
 .second__div p{
 font-size: 17px;
 margin-bottom: 24px;
-color: #f82d48;
+color: #d1a701;
 }
 
 .first__input{
 border: 2px solid black;
-background-color: white;
+background-color: #bdac9c;
 height: 46px;
 width: 80%;
 border-radius: 6px;
 padding: 0px 12px;
-color: black;
+color: #1c1e26;
 }
 ::placeholder {
 color: black;
@@ -97,14 +139,17 @@ font-size: 17px;
 font-weight: 600;
 margin: 12px 0 12px 0;
 }
+.third__div button{
+    
+}
 
 .third__div button:disabled {
 opacity: 0.4;
 pointer-events: none;
 }
 .third__div button:not(.minimal){
-background-color: black;
-color: white;
+    background-color: #9d815b;
+    color: #1c1e26;
 }
 .fourth__div{
 display: flex;
@@ -113,11 +158,12 @@ align-items: center;
 width: 100%;
 height: 30px;
 margin: 10px 0 0 0;
-background-color: #DEF3FE;
+color: #bdac9c;
+background-color: #aeaa46;
 border-radius: 5px;
 }
 .fourth__div p{
-color: black;
+color: #1c1e26;
 }
 .fourth__div p b{
 font-size: 1.2rem;
