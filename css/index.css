@@ -46,21 +46,11 @@ body{
     width: 35%;
     margin: 0 10px 0 10px;
 }
-.lateralizq{
-    width: 2%;
-}
 
-.lateralder{
-    width: 2%;
-}
-
-.espaciado__index{
-    height: 20px;
-}
 /* primera seccion  */
 
 .espaciado__index{
-    height: 20px;
+    height: 50px;
 }
 
 .first__div{
