@@ -177,47 +177,36 @@ font-size: 1.2rem;
 
 // mediaqueries
 
-@media (min-width: 550px){
-    .lateralizq{
-        width: 15%;
+@media (max-width: 600px){
+    
+}
+@media (max-width: 800px){
+    .index__container{
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
-    .container__index{
-        width: 70%;
+    .login__index{
+        width: 100%;
     }
-    .lateralder{
-        width: 15%;
+    .portada__container{
+        display: none;
     }
 }
-@media (min-width: 800px){
-    .lateralizq{
-        width: 15%;
+
+@media (max-width: 600px){
+    .index__container{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-    .container__index{
-        width: 70%;
+    .login__index{
+        width: 100%;
     }
-    .lateralder{
-        width: 15%;
-    }
-}
-@media (min-width:1000px){
-    .lateralizq{
-        width: 20%;
-    }
-    .container__index{
-        width: 60%;
-    }
-    .lateralder{
-        width: 20%;
+    .portada__container{
+        display: none;
     }
 }
 @media (min-width:1300px){
-    .lateralizq{
-        width: 25%;
-    }
-    .container__index{
-        width: 50%;
-    }
-    .lateralder{
-        width: 25%;
-    }
+    
 }

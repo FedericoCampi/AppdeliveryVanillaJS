@@ -384,59 +384,14 @@ display: none;
     }
 }
 @media (min-width: 550px){
-    .vista__desktop{
-        width: 500px;
-        background-color: #00195E;
-        border-radius: 10px;
-    }
-    .vista__desktop2{
-        background-color: white;
-    }
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 10px;
-    }
-    .vista__desktop2 h2{
-        display: none;
-        text-align: center;
-        color: black;
-    }
+    
 }
 @media (min-width: 800px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-    }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
-    }
+    
 }
 @media (min-width:1000px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 600px;
-    }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
-    }
+    
 }
 @media (min-width:1300px){
-    .vista__desktop2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 900px;
-    }
-    .vista__desktop2 h2{
-        display: flex;
-        color: black;
-    }
+    
 }
