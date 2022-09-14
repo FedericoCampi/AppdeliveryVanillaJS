@@ -8,10 +8,10 @@ h3{
 // Home
 
 .carouser-item{
-    height: 400px;
+    height: 200px;
 }
 .carousel-item img{
-    height: 400px;
+    height: 200px;
     object-fit: cover;
 }
 .seconddivpost{
