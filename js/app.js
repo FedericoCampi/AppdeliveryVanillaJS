@@ -148,14 +148,14 @@ renderCarrito()
 }
 
 var productosFood = [
-    {valor: 'pizzaGrande', nombre: 'Pizza grande', product: 1},
-    {valor: 'pizzaChica', nombre: 'Pizza chica', product: "2"},
-    {valor: 'tarta', nombre: 'Tarta de JyQ', product: 3},
-    {valor: 'empanadas', nombre: 'Empanadas', product: 4},
-    {valor: 'sandwich', nombre: 'Sandwich', product: 5},
-    {valor: 'milanesa', nombre: 'Milanesa', product: 6},
-    {valor: 'papas', nombre: 'Papas', product: 6},
-    {valor: 'tacos', nombre: 'Tacos', product: 6},
+    {valor: 'arrozFrito', nombre: 'Arroz Frito', product: 1},
+    {valor: 'camarones', nombre: 'Camarones', product: 2},
+    {valor: 'chowMein', nombre: 'Chow Mein', product: 3},
+    {valor: 'CuencoDeDimsum', nombre: 'Dimsum', product: 4},
+    {valor: 'pasta', nombre: 'Pasta', product: 5},
+    {valor: 'ramen', nombre: 'Ramen', product: 6},
+    {valor: 'sushi1', nombre: 'Sushi x 15', product: 6},
+    {valor: 'sushi2', nombre: 'Sushi x 30', product: 6},
     {valor: 'cocaCola', nombre: 'Coca cola', product: 6},
     {valor: 'Cocagrande', nombre: 'Coca Grande', product: 6}
 ]

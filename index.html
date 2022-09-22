@@ -4,32 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery app</title>
+    
+    <title>Chinese Food app</title>
 
+    <Style>
+        @font-face{
+            font-family: asianNinja;
+            src:url("resources/fonts/SAKURATA.ttf")
+        }
+        @font-face{
+            font-family: avontu;
+            src:url("resources/fonts/Avontu.ttf")
+        }
+
+    </Style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,700&family=Raleway:wght@100&family=Roboto+Mono:ital,wght@1,500;1,700&family=Roboto:ital,wght@1,300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="resources/logo/foodLogo.png" type="image/x-icon">
 </head>
-<body>
+<body class="container-fluid">
     <div class="index__container">
         <div class="portada__container">
             <div class="foto__portada">
                     <img src="resources/delivery.jpg" alt="">
                 <div class="centrado">
-                    <img src="resources/logo/fcyell.png" style="width: 113px; opacity: 1;" alt="">
-                    <h1>Lo pedís lo tenes</h1>
+                    <img src="resources/logo/foodLogo.png" style="width: 113px; opacity: 1;" alt="">
+                    <div class="">
+                        <img src="resources/logo/chineseFood.png" style="opacity: 1;" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="login__index">
-            <div class="espaciado__index">
-    
+            <div class="containerChops">
+                <div class="chopsticks">
+                    <img src="resources/chopsticks.png" alt="">
+                </div>
             </div>
+            
             <div class="first__div">
-                <p>DELIVERY APP</p>
-                <img src="resources/homescreen.svg" alt="">
+                <p>PREMIUM SERVICES</p>
+                <img src="resources/appmobile.svg" alt="App Mobile">
             </div>
             <div class="second__div">
-                <h2>BIENVENIDO!!!</h2>
-                <p>Por favor, ingresa tu correo electrónico</p>
+                <h4><strong>BIENVENIDO!!!</strong></h4>
+                <p>Por favor, ingresa tu correo electrónico:</p>
             
                 <input type="email" placeholder="Correo electrónico" class="first__input">
             </div>
@@ -39,7 +60,7 @@
                 <button class="button__div">Google</button>
             </div>
             <div class="fourth__div">
-                <p>&copy;Made by <b>Federico Campi</b></p>
+                <p><b>&copy;Made by Federico Campi</b></p>
             </div>
         </div>
     </div>

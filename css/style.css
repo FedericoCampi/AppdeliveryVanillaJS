@@ -1,17 +1,17 @@
 h2{
-    color: #fdeb37;
+    color: #e43c54;
 }
 h3{
-    color: #bdac9c
+    color: #e43c54;
 }
 
 // Home
 
 .carouser-item{
-    height: 200px;
+    height: 300px;
 }
 .carousel-item img{
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 .seconddivpost{
@@ -33,7 +33,7 @@ h3{
 
 .post__h3 h3{
     font-size: 1.5rem;
-    color: #fee2e9;
+    color: #e43c54;
     margin: 0px 0 10px 10px;
     text-align: left;
     padding: 10px 0 0 0;
@@ -60,7 +60,7 @@ h3{
 }
 .searcher input{
     width: 90%;
-    background-color: #bdac9c;
+    background-color: white;
 }
 .form-control::placeholder {
     color: #1c1e26;
@@ -69,7 +69,8 @@ h3{
 .food__container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
+    padding-left: 5%;
 }
 .food__container img{
     width: 182px;
@@ -77,11 +78,11 @@ h3{
 }
 .img__foods{
     position: relative;
-    margin: 5px 0 5px 0;
+    margin: 5px;
     border-radius: 10px;
     display: flex;
     justify-content: flex-end;
-    background-color: #9d815b;
+    background-color: #430810;
 }
 .img__foods img{
     border-radius: 10px;
@@ -95,7 +96,7 @@ h3{
 .img__foods h4{
     display: flex;
     justify-content: center;
-    color: #1c1e26;
+    color: white;
     margin-top: 8px;
 }
 
@@ -109,7 +110,8 @@ h3{
 .productos__container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
+    padding-left: 5%;
 }
 .card__container{
     width: 180px;
@@ -127,21 +129,22 @@ h3{
 .card{
     width: 200px;
     height: 400px;
-    background-color: #9d815b;
+    background-color: #430810;
+    color: white;
 }
 
 .card-body p{
-    color: #1c1e26;
+    color: white;
 }
 .card-body h5{
-    color: #1c1e26;
+    color: white;
 }
 .card-text h5{
 
 }
 .card-body button{
-    background-color: #d1a701;
-    color: #1c1e26;
+    background-color: black;
+    color: #e43c54;
 }
 
 // css carrito
@@ -206,18 +209,22 @@ header{
 
 }
 .navbar{
-    background-color: #aeaa46;
+    background-color: #430810;
 }
 .items__nav{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-end;
 }
+.carrito_pill.active, .show>.carrito_pill{
+    background-color: none;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #d1a701;
-    background-color: #1c1e26;
+    color: #e43c54;
+    background-color: black;
     border-radius: 10px;
 }
+
 
 .nav-pills .nav-link{
     font-size: 12px;
@@ -238,17 +245,20 @@ header{
     border-radius: 10px;
 }
 .container a{
-    color: #1c1e26;
+    color: white;
 }
 body{
-    background-color: #1c1e26;
+    background-color: black;
     font-family: 'Cabin', sans-serif;
 }
 header, .alert{
 z-index: 100;
 }
 footer{
-    background-color: #01091e;
+    background-color: #171717;
+}
+footer p{
+    color: white;
 }
 .description{
 height: 20px;
@@ -333,25 +343,25 @@ display: none;
 .contact__div input{
     border-radius: 5px;
     height: 35px;
-    background-color: #bdac9c;
+    background-color: #171717
 }
 
 .contact__div textarea{
     border-radius: 5px;
     height: 100px;
-    background-color: #bdac9c;
+    background-color: #171717
 }
 .contact__item::placeholder{
-    color: #1c1e26;
+    color: white
 }
 .enviarmensaje{
     width: 50%;
     justify-content: flex-end;
     margin-left: 50%;
-    color: #1c1e26;
+    color: white;
 }
 .enviarmensaje:hover{
-    background-color: #d1a701;
+    background-color: #f82d48;
 }
 
 // mediaqueries
