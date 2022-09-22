@@ -1,6 +1,6 @@
 body{
     background-color: #020203;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     display: flex;
     height: 100vh;
     margin: 0;
@@ -10,7 +10,6 @@ body{
 .index__container{
     display: flex;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
     height: 100%;
     width: 100%;
 }
