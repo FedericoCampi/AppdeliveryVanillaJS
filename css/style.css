@@ -221,8 +221,8 @@ header{
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #e43c54;
-    background-color: black;
     border-radius: 10px;
+    background-color: black;
 }
 
 
